@@ -3,8 +3,9 @@
 ### PURPOSE
 The purpose of this report is to analyze the net sales performance of AtliQ Hardwares for fiscal years 2019, 2020, and 2021, with a specific focus on evaluating the percentage variation in sales between 2020 and 2021. This report outlines the complete process—from data extraction and cleaning to transformation and analysis—culminating in actionable insights that help the organization understand year-over-year sales trends.
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/57fc1e5e-f3ac-41e1-a8b6-da27e6d3099d" alt="Capture">
+  <img src="https://github.com/user-attachments/assets/84178526-0764-4467-952d-4cd123d016fd" alt="Capture">
 </div>
+
 
 
 ## OBJECTIVES:
