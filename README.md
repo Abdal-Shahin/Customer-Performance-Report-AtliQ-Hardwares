@@ -2,6 +2,10 @@
 
 ### PURPOSE
 The purpose of this report is to analyze the net sales performance of AtliQ Hardwares for fiscal years 2019, 2020, and 2021, with a specific focus on evaluating the percentage variation in sales between 2020 and 2021. This report outlines the complete process—from data extraction and cleaning to transformation and analysis—culminating in actionable insights that help the organization understand year-over-year sales trends.
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/57fc1e5e-f3ac-41e1-a8b6-da27e6d3099d" alt="Capture">
+</div>
+
 
 ## OBJECTIVES:
 **1**. Calculate **net sales** for FY 2019, 2020, and 2021.
@@ -26,17 +30,17 @@ Data was extracted from raw CSV files into Power Query in Excel. The datasets we
 ---
 
 ## DATA CLEANING
-**1**. Standardized customer naming conventions: Replaced variations like `AltiQ Exclusive` and `Atliq Exclusive` with `AtliQ Exclusive` (Dim_Customer Table).
+**1. Standardized customer naming conventions**: Replaced variations like `AltiQ Exclusive` and `Atliq Exclusive` with `AtliQ Exclusive` (Dim_Customer Table).
 <div align="center">
   <img src="https://github.com/user-attachments/assets/f9106d64-5ede-4782-8d22-847a3a31add9" alt="1">
 </div>
 
-**2**. Enhanced geographical data accuracy by replacing invalid entries (`nan`) with `NA` (North America) in the Sub Zone and Region columns (Dim_Market Table).
+**2. Enhanced geographical data accuracy**: By replacing invalid entries (`nan`) with `NA` (North America) in the Sub Zone and Region columns (Dim_Market Table).
 <div align="center">
   <img src="https://github.com/user-attachments/assets/e46168cc-a548-40c8-968e-5a0a0e904828" alt="2">
 </div>
 
-**3**. Corrected inaccuracies in sales data: Converted negative values in the Quantity column of the Fact_Sales_Monthly table to positive, ensuring consistency and accuracy for further analysis.
+**3. Corrected inaccuracies in sales data**: Converted negative values in the Quantity column of the Fact_Sales_Monthly table to positive, ensuring consistency and accuracy for further analysis.
 <div align="center">
   <img src="https://github.com/user-attachments/assets/89706cc2-043b-4fd7-9c24-26036a2e97ab" alt="3a">
          <img src="https://github.com/user-attachments/assets/6664cc34-1295-4585-b429-a29533e2e981" alt="3b">
@@ -111,6 +115,6 @@ The unified data model enabled dynamic reporting and ensured that changes in any
 
 **1. Accurate Sales Reporting**: Delivered a comprehensive, accurate analysis of **net sales** for 2019, 2020, and 2021, revealing important sales trends and variations.
 
-**3. Actionable Insights for Decision-Makers**: Provided insights that can guide future business strategies.
+**2. Actionable Insights for Decision-Makers**: Provided insights that can guide future business strategies.
 
-**4. Improved Data Quality**: Standardized and cleaned the data, eliminating inconsistencies that could skew analysis, ultimately leading to more reliable insights.
+**3. Improved Data Quality**: Standardized and cleaned the data, eliminating inconsistencies that could skew analysis, ultimately leading to more reliable insights.
