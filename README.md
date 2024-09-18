@@ -112,10 +112,12 @@ The unified data model enabled dynamic reporting and ensured that changes in any
   - **Sales by Year**: Displayed the net sales for 2019, 2020, and 2021.
   - **Sales by Customers**: Showed the distribution of sales across various customers.
 
-## KEY ACHIEVEMENTS AND INSIGHTS
+## KEY ACHIEVEMENTS
 
-**1. Accurate Sales Reporting**: Delivered a comprehensive, accurate analysis of **net sales** for 2019, 2020, and 2021, revealing important sales trends and variations.
+- Efficiently executed the ETL process, extracting and processing over **800k rows** of sales data from large CSV files into Power Query. 
 
-**2. Actionable Insights for Decision-Makers**: Provided insights that can guide future business strategies.
+- Developed and implemented data transformations, including the creation of a comprehensive Date Table and deriving fiscal periods, which **optimized reporting** for year-over-year analysis.
 
-**3. Improved Data Quality**: Standardized and cleaned the data, eliminating inconsistencies that could skew analysis, ultimately leading to more reliable insights.
+- Built a **robust data model** by connecting **5 key tables**, ensuring seamless querying and enabling dynamic pivot reporting, resulting in faster data retrieval and analysis.
+
+- Created **DAX calculations** to compute key performance metrics such as Net Sales for FY 2019, 2020, and 2021.
